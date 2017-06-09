@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fix_db_schema_conflicts/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fix-db-schema-conflicts'
+  spec.name          = 'snapsheet-fix-db-schema-conflicts'
   spec.version       = FixDBSchemaConflicts::VERSION
   spec.authors       = ['Jake Moffatt']
   spec.email         = ['jakeonrails@gmail.com']
